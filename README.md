@@ -1,6 +1,7 @@
 # estudo-less
 
-##COMANDOS
+## COMANDOS
+
 compilar: lessc estilos.less estilos.css
 
 instalar grunt: npm install -g grunt
