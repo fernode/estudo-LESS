@@ -1,11 +1,12 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   require('jit-grunt')(grunt);
 
   grunt.initConfig({
     less: {
       development: {
         files: {
-          "css/estilos.css": "css/estilos.less" // Caminho dos arquivos
+          "css/estilos.css": "css/estilos.less",
+          "css/media-queries.css": "css/media-queries.less" // Caminho dos arquivos
         }
       }
     },
