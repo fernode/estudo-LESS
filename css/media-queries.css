@@ -7,7 +7,7 @@
 		height: auto;
 	}
 
-	header .container{
+	header .container {
 		position: static;
 	}
 
@@ -22,7 +22,7 @@
 		display: block;
 	}
 
-	.menu-opcoes {
+	.menu-principal {
 		position: static;
 		display: block;
 		text-align: center;
