@@ -29,7 +29,7 @@
 		padding: .6em;
 		font-size: 1.2em;
 		.borda-arredondada(1em);
-		.sombra-padrao;
+		&:extend(.sombra-padrao);
 		font-weight: bold;
 
 		&:hover {
@@ -40,5 +40,10 @@
 			background: darken(@cor-padrao, 5);
 			transform: translateY(3px);
 		}
+	}
+
+	@media @mobile {
+		font-size: 14px;
+		height: 250px;
 	}
 }

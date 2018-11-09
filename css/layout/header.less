@@ -9,6 +9,25 @@ header {
 	& .container {
 		position: relative;
 	}
+
+	@media @mobile {
+		height: auto;
+
+		.container {
+			position: static;
+		}
+
+		h1 {
+			max-width: 50%;
+			margin: 0 auto;
+
+			& img {
+				max-width: 100%;
+				margin: .5em auto;
+				display: block;
+			}
+		}
+	}
 }
 
 .menu-principal {
@@ -34,5 +53,25 @@ header {
 		&:hover {
 			text-decoration: underline;
 		}
+	}
+
+	@media @mobile {
+		position: static;
+		display: block;
+		text-align: center;
+
+		li {
+			margin: .4em;
+		}
+	}
+}
+
+@media @mobile {
+	.menu-principal,
+	.menu-principal li,
+	.post-destaque,
+	.posts-antigos,
+	form {
+		width: auto;
 	}
 }
