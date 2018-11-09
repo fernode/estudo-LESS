@@ -21,3 +21,6 @@ A diferença entre um mixin e o extend é que o mixin você pode passar um valor
 
 ### Isolar media query em variaveis  
 A sintaxe seria essa: @mobile: ~"(max-width: 980px)";, porque estou passando uma string para uma variável, então além das "" devo coloca o sinal de ~ no início do media query.  
+
+#### Fazendo calculos no less  
+para fazer calculos no less é bem simples é só fazer uma operação matemática comum 16 * 3px.
